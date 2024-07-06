@@ -1,1 +1,1 @@
-# zenith
+Zenith is great!
