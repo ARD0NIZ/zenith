@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    color: white;
+    /*text-shadow: 0 0 5px rgba(0, 0, 0, white);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, white);*/
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.507);
+}
+
+
+.top {
+    overflow: hidden;
+    /* Verhindert, dass das Bild über den Rand des Containers herausläuft */
+}
+
+.start-image {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.logo,
+.logo-name {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    /* Beispielgröße für das Logo */
+}
+
+.logo-name {
+    font-size: 14px;
+    /* Beispielgröße für den Namen */
+    margin-top: 20px;
+    /* Abstand zwischen Logo und Namen */
+}
+
+
+.main {
+    margin-top: 30px;
+}
+
+.tos, .pp, .c {
+    margin-top: 70px;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
