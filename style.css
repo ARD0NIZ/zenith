@@ -54,8 +54,17 @@ a {
     text-align: center;
 }
 
-.landing {
+.lastpatch {
     text-align: center;
+}
+
+.resources {
+    text-align: center;
+}
+
+.stats {
+    text-shadow: 0 0 1px #fff;
+    text-decoration: underline;
 }
 
 .middle {
@@ -106,8 +115,36 @@ a {
     transform: scaleY(1);
 }
 
+.link {
+    background: none;
+    border: 2px solid #fff;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    color: #fff;
+}
+
+.link:hover {
+    border: 2px solid #000;
+    text-shadow: 0 0 15px #fff;
+    transition: 0.5s;
+}
+
+.link:not(:hover) {
+    transition: 0.5s;
+}
+
 @media(min-width: 425px) and (max-width: 1080px) {
     .btn {
-        font-size: 24px;
+        font-size: 28px;
+    }
+
+    .link {
+        font-size: 28px;
     }
 }
