@@ -75,6 +75,11 @@ a {
     text-align: center;
 }
 
+.widget {
+    margin-top: 60px;
+    text-align: center;
+}
+
 .btn {
     background: none;
     border: 2px solid #fff;
