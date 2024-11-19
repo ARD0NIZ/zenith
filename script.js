@@ -1,4 +1,4 @@
-const apiUrl = 'https://api.lynnux.xyz/request?site=http://38.22.104.139:1254/botStats';
+const apiUrl = 'https://api.lynnux.xyz/request?site=http://2.56.244.130:1031/botStats';
 
 fetch(apiUrl)
     .then(response => {
