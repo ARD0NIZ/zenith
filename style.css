@@ -144,6 +144,10 @@ a {
     transition: 0.5s;
 }
 
+.contactDiv {
+    border-tp: 2px solid #111;
+    }
+
 @media(min-width: 425px) and (max-width: 1080px) {
     .btn {
         font-size: 28px;
