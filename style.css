@@ -145,7 +145,7 @@ a {
 }
 
 .contactDiv {
-    border-top: 2px solid #111;
+    border-top: 2px solid #fff;
     }
 
 @media(min-width: 425px) and (max-width: 1080px) {
